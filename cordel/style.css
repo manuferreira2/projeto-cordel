@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Passione One';
+    src: url(fontes/PassionOne-Regular.otf);
+}
+body{
+    background-color: white;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    font-family: 'Passione One', cursive;
+    margin: 0px;
+}
+header p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin: 10px 20px 20px 20px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(196, 193, 193, 0.418);
+}
+main{
+    background-color: white;
+    font-family: cursive;
+    font-size: 2.5em;
+}
+main article{
+    max-width: 600px;
+    max-height: 300px;
+}
