@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 @font-face {
     font-family: 'Passione One';
     src: url(fontes/PassionOne-Regular.otf);
@@ -17,6 +19,8 @@ header{
 header h1{
     font-family: 'Passione One', cursive;
     margin: 0px;
+    font-variant: small-caps;
+    font-size: 10vw;
 }
 header p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
@@ -30,9 +34,52 @@ header a{
 main{
     background-color: white;
     font-family: cursive;
-    font-size: 2.5em;
+    font-family: 'Sriracha',cursive;
 }
 main article{
-    max-width: 600px;
-    max-height: 300px;
+    margin-left: 15px;
+    padding: 30px 0px 30px 0px;
+    max-width: 50%;
+    font-size: 3vw;
+    line-height: 2em
+    
+}
+main p{
+    padding: 10px;
+}
+#flor{
+    background-image: url(imagens/background001.jpg);
+    background-position: center bottom;
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main p#detalhe1{
+    background-color: rgba(0, 0, 0, 0.247);
+    color: white;
+
+}
+#livro{
+    background-image: url(imagens/background002.jpg);
+    background-position: center bottom;
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main p#detalhe2{
+    background-color: rgba(0, 0, 0, 0.247);
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
